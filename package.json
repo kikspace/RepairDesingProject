@@ -1,0 +1,26 @@
+{
+  "name": "glo",
+  "version": "1.0.0",
+  "description": "домашка",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikspace/glo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kikspace/glo/issues"
+  },
+  "homepage": "https://github.com/kikspace/glo#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-cli": "^2.2.0"
+  }
+}
