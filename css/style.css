@@ -74,6 +74,7 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
+  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   /* 2 */ }
 
@@ -338,7 +339,7 @@ template {
 .phone {
   color: #E3B873; }
 
-.contacts__phone {
+.contects__phone {
   margin-right: 45px; }
 
 body {
