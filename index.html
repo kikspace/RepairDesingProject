@@ -7,6 +7,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap&subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
@@ -15,7 +16,7 @@
   <header class="header">
     <div class="container">
       <div class="menu">
-        <div class="logo menu__logo">Repair Desing Project</div>
+        <div class="logo menu__logo wow fadeInRight">Repair Desing Project</div>
         <nav class="nav menu__nav">
           <a href="#" class="nav__item">Главная</a>
           <a href="#" class="nav__item">Проекты</a>
@@ -41,11 +42,11 @@
       </div>
       <div class="container">
         <div class="hero__content">
-          <h1 class="title hero__title">Турецкий ремонт в&nbsp;<span class="title__primary">Ростове-на-дону</span></h1>
-          <p class="hero__text">Получите готовый ремонт под ключ в срок с экономией рабочего времени до 45 дней и 20% от
+          <h1 class="title hero__title wow fadeInRight" data-wow-delay="0.1s">Турецкий ремонт в&nbsp;<span class="title__primary">Ростове-на-дону</span></h1>
+          <p class="hero__text wow fadeInRight" data-wow-delay="0.3s">Получите готовый ремонт под ключ в срок с экономией рабочего времени до 45 дней и 20% от
             стоимости материалов за счет организации работы</p>
-          <button class="button hero__button button--primary" data-toggle="modal">Расчитать стоимость</button>
-          <button class="button hero__button button--outline">Отправить заявку</button>
+          <button class="button hero__button button--primary wow fadeInRight" data-toggle="modal" data-wow-delay="0.6s">Расчитать стоимость</button>
+          <button class="button hero__button button--outline wow fadeInRight"  data-wow-delay="0.6s">Отправить заявку</button>
         </div>
         <!-- /.hero__content -->
       </div>
@@ -169,7 +170,7 @@
     <!-- /.projects -->
     <section class="section control">
       <div class="container">
-        <div class="section-title control__section-title section-title--light">
+        <div class="section-title control__section-title section-title--light wow fadeInDown">
           <h2 class="section-title__heading">Онлайн контроль</h2>
           <!-- /.section-title__heading -->
           <div class="section-title__image">
@@ -209,7 +210,7 @@
 
     <section class="section types">
       <div class="container">
-        <div class="section-title types__section-title">
+        <div class="section-title types__section-title wow fadeInDown">
           <h2 class="section-title__heading">Виды ремонта</h2>
           <!-- /.section-title__heading -->
           <div class="section-title__image">
@@ -332,6 +333,7 @@
   <!-- /.modal -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script src="js/wow.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
