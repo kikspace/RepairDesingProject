@@ -54,7 +54,8 @@ $(document).ready(function(){
       // правило-объект
       userName: {
         required: true,
-        minlength: 2
+        minlength: 2,
+        maxlength: 15
       },
       userEmail: {
         required: true,
@@ -64,7 +65,8 @@ $(document).ready(function(){
     messages: {
       userName: {
         required: "*Имя обязательно",
-        minlength: "*Имя не короче 2-х букв"
+        minlength: "*Имя не короче 2-х букв",
+        maxlength: "*Имя не длинее 15-ти букв"
       },
       userPhone: "*Телефон обязателен",
       userEmail: {
