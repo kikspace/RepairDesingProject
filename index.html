@@ -334,6 +334,10 @@
         </form>
       </div>
       <!-- /.footer-wrap -->
+      <div class="map footer__map">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af2f55e07bb374762d39b71c7aad6093d552dc34cddb10d8dcf414d6f9c8e9649&amp;width=100%25&amp;height=465&amp;lang=ru_RU&amp;scroll=false"></script>
+      </div>
+      <!-- /.map footer__map -->
     </div>
     <!-- /.container -->
     <div class="footer__menu">
@@ -365,15 +369,15 @@
       <h3 class="modal__title">Оставьте заявку и наш менеджер свяжется с вами</h3>
       <form action="#" class="form modal__form">
         <div class="input-group modal__input-group">
-          <label for="user-name" class="label form__label label--light">Имя<span>*</span></label>
+          <label for="user-name" class="label form__label label--light">Имя<span class="label--invalid">*</span></label>
           <input type="text" name="userName" class="input form__input modal__input input--light" id="user-name" placeholder="Как вас зовут:">
         </div>
         <div class="input-group modal__input-group">
-          <label for="user-phone" class="label form__label label--light">Телефон<span>*</span></label>
+          <label for="user-phone" class="label form__label label--light">Телефон<span class="label--invalid">*</span></label>
           <input type="tel" name="userPhone" class="input form__input modal__input input--light" id="user-phone" placeholder="Ваш номер телефона:">
         </div>
         <div class="input-group modal__input-group">
-          <label for="user-email" class="label form__label label--light">Email<span>*</span></label>
+          <label for="user-email" class="label form__label label--light">Email<span class="label--invalid">*</span></label>
           <input type="email" name="userEmail" class="input form__input modal__input input--light" id="user-email" placeholder="Ваш email:">
         </div>
         <div class="policy modal__policy">

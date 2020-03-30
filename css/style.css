@@ -342,6 +342,10 @@ template {
   font-size: 1.07rem;
   color: rgba(255, 255, 255, 0.5); }
 
+.label--invalid {
+  color: #FF0000;
+  font-size: 1.3rem; }
+
 .input {
   background-color: transparent;
   border: none;
@@ -741,10 +745,6 @@ img {
   .modal__button {
     align-self: flex-end; }
 
-span {
-  color: #FF0000;
-  font-size: 1.3rem; }
-
 .projects {
   padding-bottom: 30rem; }
 
@@ -829,6 +829,8 @@ span {
   .footer__menu {
     background-color: #131313;
     padding: 4.285rem 0; }
+  .footer__map {
+    margin-bottom: 4rem; }
 
 @media screen and (max-width: 1260px) {
   html {
