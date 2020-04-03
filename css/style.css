@@ -831,7 +831,8 @@ img {
     background-color: #131313;
     padding: 4.285rem 0; }
   .footer__map {
-    margin-bottom: 4rem; }
+    margin-bottom: 4rem;
+    min-height: 465px; }
 
 @media screen and (max-width: 1260px) {
   html {
