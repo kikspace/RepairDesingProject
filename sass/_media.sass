@@ -16,6 +16,9 @@
   .row
     flex-direction: column
     align-items: center
+  .col
+    &-50
+      width: 95%
   .types
     &__card
       margin-bottom: 5rem
@@ -44,6 +47,39 @@
       display: block
       min-width: 22.86rem
       margin-bottom: 1.85rem
+    &::after
+      display: none
+  .swiper
+    &-container
+      &--down
+        margin-top: 2.14rem
+  .control
+    background-color: $dark
+    color: $light
+    &__video
+      min-height: 0
+      margin-bottom: 3.4rem
+    &__form
+      margin-bottom: -6rem
+    &__text
+      margin: 0
+    &__policy
+      margin: 0
+      &__label
+        justify-content: start
+    &__input
+      &-group
+        flex-basis: 100%
+        margin: 1.5rem 0
+      &::placeholder
+        color: $light
+    &__button
+      order: 2
+      margin-top: 4.5rem
+      width: 100%
+  .form
+    &__label
+      color: $secondary
 @media screen and ( max-height: 570px )
   .hero
     &__scroll-down
