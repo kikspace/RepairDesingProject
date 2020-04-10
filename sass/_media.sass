@@ -25,6 +25,24 @@
   .card
     &__tetx
       margin-left: 0
+  .form
+    display: flex
+    &__label
+      justify-content: start
+      color: $secondary
+      &--light
+        color: $light
+    &__input
+      border-bottom: 1px solid $light
+      &-group
+        flex-basis: 100%
+        margin: 2rem 0
+      &::placeholder
+        color: $light
+    &__policy
+      margin-top: 0
+    &__button
+      width: 100%
 @media screen and ( max-width: 570px )
   .contects
     &__phone
@@ -63,23 +81,21 @@
       margin-bottom: -6rem
     &__text
       margin: 0
-    &__policy
-      margin: 0
-      &__label
-        justify-content: start
-    &__input
-      &-group
-        flex-basis: 100%
-        margin: 1.5rem 0
-      &::placeholder
-        color: $light
     &__button
       order: 2
       margin-top: 4.5rem
-      width: 100%
-  .form
-    &__label
-      color: $secondary
+  .types
+    margin-bottom: 0
+    padding-bottom: 0
+  .card
+    &__text
+      margin: -9.3rem 0 0 -0.1rem
+  .footer
+    background: $dark
+    &__wrap
+      background-color: $dark
+      margin: 0 auto
+      padding: 2.5rem 0
 @media screen and ( max-height: 570px )
   .hero
     &__scroll-down

@@ -857,7 +857,33 @@ img {
   .types__card {
     margin-bottom: 5rem; }
   .card__tetx {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .form {
+    display: flex; }
+    .form__label {
+      justify-content: start;
+      color: #959595; }
+      .form__label--light {
+        color: #fff; }
+    .form__input {
+      border-bottom: 1px solid #fff; }
+      .form__input-group {
+        flex-basis: 100%;
+        margin: 2rem 0; }
+      .form__input::-webkit-input-placeholder {
+        color: #fff; }
+      .form__input::-moz-placeholder {
+        color: #fff; }
+      .form__input:-ms-input-placeholder {
+        color: #fff; }
+      .form__input::-ms-input-placeholder {
+        color: #fff; }
+      .form__input::placeholder {
+        color: #fff; }
+    .form__policy {
+      margin-top: 0; }
+    .form__button {
+      width: 100%; } }
 
 @media screen and (max-width: 570px) {
   .contects__phone {
@@ -893,29 +919,20 @@ img {
       margin-bottom: -6rem; }
     .control__text {
       margin: 0; }
-    .control__policy {
-      margin: 0; }
-      .control__policy__label {
-        justify-content: start; }
-    .control__input-group {
-      flex-basis: 100%;
-      margin: 1.5rem 0; }
-    .control__input::-webkit-input-placeholder {
-      color: #fff; }
-    .control__input::-moz-placeholder {
-      color: #fff; }
-    .control__input:-ms-input-placeholder {
-      color: #fff; }
-    .control__input::-ms-input-placeholder {
-      color: #fff; }
-    .control__input::placeholder {
-      color: #fff; }
     .control__button {
       order: 2;
-      margin-top: 4.5rem;
-      width: 100%; }
-  .form__label {
-    color: #959595; } }
+      margin-top: 4.5rem; }
+  .types {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+  .card__text {
+    margin: -9.3rem 0 0 -0.1rem; }
+  .footer {
+    background: #131313; }
+    .footer__wrap {
+      background-color: #131313;
+      margin: 0 auto;
+      padding: 2.5rem 0; } }
 
 @media screen and (max-height: 570px) {
   .hero__scroll-down {
