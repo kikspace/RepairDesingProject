@@ -655,10 +655,8 @@ img {
   position: relative;
   margin: auto; }
 
-.types {
-  margin-bottom: 25rem; }
-  .types__section-title {
-    margin-bottom: 2rem; }
+.types__section-title {
+  margin-bottom: 2rem; }
 
 .card__text {
   position: relative;
@@ -842,6 +840,14 @@ img {
       margin: 0 0.7rem; }
   .footer__text {
     display: block; }
+
+.design__text {
+  max-width: 53rem;
+  margin: auto;
+  margin-bottom: 2.8rem;
+  text-align: center;
+  font-size: 1.428rem;
+  line-height: 2.42rem; }
 
 @media screen and (max-width: 1260px) {
   html {
