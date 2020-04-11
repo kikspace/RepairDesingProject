@@ -4,6 +4,8 @@
   .nav
     &__item
       margin-right: 1rem
+  .row
+    align-items: center
 @media screen and ( max-width: 992px )
   .nav
     display: none
@@ -70,7 +72,7 @@
   .swiper
     &-container
       &--down
-        margin-top: 2.14rem
+        margin: 2.14rem 0 0 0
   .control
     background-color: $dark
     color: $light
@@ -96,7 +98,28 @@
       background-color: $dark
       margin: 0 auto
       padding: 2.5rem 0
+    &__container
+      display: flex
+      flex-direction: column
+    &__contects
+      order: 2
+      &-title
+        font-size: 1.4rem
+    &__text
+      display: inline
+    &__phone
+      display: block
+      color: $primary
+    &__menu
+      padding: 2.2rem 0
 @media screen and ( max-height: 570px )
+  .header
+    padding: 0.5rem 0
   .hero
     &__scroll-down
       display: none
+  .control
+    &__section-title
+      margin-top: -320px
+    &__video
+      min-height: 300px
