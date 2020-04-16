@@ -855,6 +855,7 @@ img {
     border-radius: 50%;
     margin: 0.5rem; }
   .clients__card__text {
+    text-align: justify;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
     max-width: 23.6rem;
     padding: 1.79rem 2.14rem;
@@ -886,7 +887,13 @@ img {
   .hero__instagram {
     display: none; }
   .hero__content {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .clients__card__text {
+    text-align: left; }
+  .clients__card__title {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; } }
 
 @media screen and (max-width: 570px) {
   .row {
